@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TenDuAn" parallel="false">
+	<test name="Run test on Chrome">
+		<groups>
+			<run>
+				<include name="regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testng.Topic03_Group_User" />
+			<class name="testng.Topic03_Group_Admin" />
+		</classes>
+	</test>
+</suite> 
+ 
